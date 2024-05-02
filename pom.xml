@@ -11,6 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>dam2_m13_spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<!-- to generate package war -->
+	<packaging>war</packaging>
 	<name>dam2_m13_spring</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
