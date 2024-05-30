@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-@EntityScan(basePackages = "entity")
+@EntityScan(basePackages = "entity") // search in specific package
 public class Dam2M13SpringApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
